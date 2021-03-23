@@ -1,0 +1,160 @@
+* {
+    font-family: sans-serif;
+}
+
+.navbar-brand {
+    margin-left: 100px !important;
+}
+
+
+.links__container {
+    margin-right: 100px !important;
+} 
+
+.nav-link {
+    color: #fff !important;
+    font-family: sans-serif !important;
+    text-transform: capitalize !important;
+}
+
+.nav-link:hover {
+    color: gray !important;
+    transition: 1s;
+}
+
+.nav-link:not(:hover) {
+    transition: 1s;
+}
+
+.header__links {
+    position: relative !important;
+}
+
+.header__links:after {
+    content: '';
+    height: 3px !important;
+    width: 0%;
+    background-color: #fff !important;
+    position: absolute !important;
+    left: 0 !important;
+    bottom: -1px !important;
+    transition: 1s !important;
+}
+
+.header__links:hover:after {
+    width: 100%;
+}
+
+
+
+
+
+#home-section{
+    background-color:#fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:#000;
+}
+
+#latest-section{
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #FF3366;
+}
+
+#blog-section{
+    background-color: #0E0240;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color:#9012FD;
+}
+
+#coronahelp-section{
+    background-color:white;
+    /* :#0E0240; */
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    color: #BD0FE1;
+}
+
+.lastest-heading, .home-heading{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+}
+
+.measure-head{
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+}
+
+.tdim{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.col-sm{
+    margin-top: 0.5rem;
+}
+
+.shift{
+    margin-left: 1.4rem;
+
+}
+
+.bg-dark{
+    background-color:white;
+    /* #0B0334!important; */
+}
+
+.imgal{
+    text-align: center;
+}
+
+.banner__heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    
+}
+
+.measures{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 2rem;
+    color:#BD0FE1;
+}
+
+.helpline{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+.lastest-subh{
+    margin-top: -2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 3rem;
+}
+#footer-section{
+    background-color: #0B0334;
+    color: white;
+    padding: 1rem;
+}
+
+.card-title, .card-text{
+    color: black;
+    font-family: Poppins, sans-serif;
+}
+
+.spac{
+    margin-bottom: 2rem;
+}
